@@ -1,3 +1,5 @@
+import './index.css';
+
 // меню
 const menuButton = document.querySelector('.header__menu');
 const accordion = document.querySelector('.accordion');

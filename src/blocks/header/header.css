@@ -11,6 +11,7 @@
 
 @media screen and (min-width: 768px) {
   .header {
+    background-color: #FFF;
     min-height: 67px;
   }
 }
