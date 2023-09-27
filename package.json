@@ -7,7 +7,8 @@
     "build": "rimraf dist && webpack --mode production",
     "dev": "webpack serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "author": "",
   "license": "ISC",
@@ -28,6 +29,8 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "core-js": "^3.32.0"
+    "@visto9259/php-webpack-plugin": "^1.1.0",
+    "core-js": "^3.32.0",
+    "webpack-php-loader": "^0.5.0"
   }
 }

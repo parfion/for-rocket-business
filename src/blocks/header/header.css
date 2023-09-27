@@ -1,5 +1,4 @@
 .header {
-  background-color: pink;
   min-height: 65px;
 }
 
@@ -11,7 +10,6 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    background-color: #FFF;
     min-height: 67px;
   }
 }
