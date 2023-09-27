@@ -1,0 +1,20 @@
+.slider__slide-img {
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-height: 169px;
+}
+
+@media screen and (min-width: 414px) {
+  .slider__slide-img {
+    max-height: 440px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slider__slide-img {
+    max-width: 47%;
+    transform: perspective(120px) rotateX(-3deg) translateZ(10px);
+    transform-origin: right center;
+  }
+}

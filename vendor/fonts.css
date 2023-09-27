@@ -1,0 +1,13 @@
+@font-face {
+    src: url('./fonts/PTSans-Caption.woff') format('woff'),
+         url('./fonts/PTSans-Caption.woff2') format('woff2');
+    font-family: 'PTSans-Caption';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url('./fonts/PTSans-CaptionBold.woff') format('woff'),
+         url('./fonts/PTSans-CaptionBold.woff2') format('woff2');
+    font-family: 'PTSans-Caption';
+    font-weight: 700;
+}

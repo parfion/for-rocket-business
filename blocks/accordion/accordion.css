@@ -1,0 +1,22 @@
+.accordion {
+  position: absolute;
+  left: 0;
+  top: 65px;
+  height: 100vh;
+  min-width: 375px;
+  visibility: hidden;
+  opacity: 0;
+  background: rgba(69, 146, 127, 0.90);
+  backdrop-filter: blur(2px);
+}
+
+@media screen and (min-width: 768px) {
+  .accordion {
+    position: unset;
+    visibility: visible;
+    opacity: 1;
+    max-height: 43px;
+    transition: visibility .2s, opacity .2s ease;
+    
+  }
+}

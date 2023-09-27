@@ -1,0 +1,6 @@
+.header__contact-img {
+  object-fit: contain;
+  background-repeat: no-repeat;
+  padding-right: 9px;
+  max-height: 28px;
+}

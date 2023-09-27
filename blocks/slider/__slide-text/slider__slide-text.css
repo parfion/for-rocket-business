@@ -1,0 +1,20 @@
+.slider__slide-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 145%;
+  margin-bottom: 7.5px;
+}
+
+.slider__slide-text::marker {
+  color: #1FA181;
+  width: 7px;
+  height: 7px;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__slide-text {
+    font-size: 16px;
+    margin-bottom: 5.1px;
+  }
+}

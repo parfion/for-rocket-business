@@ -1,0 +1,19 @@
+.slider {
+  overflow: hidden;
+  padding-top: 49px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .slider {
+    padding-top: 101px;
+    max-width: 1140px;
+  }
+}
+
+@media screen and (min-width: 1176px) {
+  .slider {
+    margin: auto;
+  }
+}

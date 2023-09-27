@@ -1,0 +1,27 @@
+.accordion__content {
+  margin: 0;
+  padding-left: 19px;
+  padding-top: 48px;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .accordion__content {
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    max-height: 43px;
+    padding-top: 0;
+    padding-left: 18px;
+    padding-right: 18px;
+    max-width: 1140px;
+    
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .accordion__content {
+    margin: auto;
+  }
+}

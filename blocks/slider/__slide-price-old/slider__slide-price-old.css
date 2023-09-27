@@ -1,0 +1,14 @@
+.slider__slide-price-old {
+  margin: 0;
+  color: #868686;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__slide-price-old {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,14 @@
+.slider__slide-title {
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__slide-title {
+    font-size: 38px;
+  }
+}

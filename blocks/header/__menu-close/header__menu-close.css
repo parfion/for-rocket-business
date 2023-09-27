@@ -1,0 +1,9 @@
+.header__menu-close {
+  background-image: url('../../../images/closeMenu.svg');
+  min-width: 29px;
+  min-height: 29px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  margin-right: 51px;
+}

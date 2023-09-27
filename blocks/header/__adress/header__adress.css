@@ -1,0 +1,18 @@
+.header__adress {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .header__adress {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+  .header__adress-point { grid-area: 1 / 1 / 2 / 2; }
+  .header__adress-town { grid-area: 1 / 2 / 2 / 3; }
+  .header__adress-street { grid-area: 2 / 2 / 3 / 3; } 
+}

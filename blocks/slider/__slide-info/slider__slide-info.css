@@ -1,0 +1,9 @@
+.slider__slide-info {
+  padding: 22px 30px 42px 23px;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__slide-info {
+    padding: 53.14px 0 56px 63px;
+  }
+}

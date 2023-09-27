@@ -1,0 +1,14 @@
+.slider__slide {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #E2F0EF;
+}
+
+@media screen and (min-width: 768px) {
+  .slider__slide {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}

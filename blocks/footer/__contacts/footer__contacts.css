@@ -1,0 +1,10 @@
+.footer__contacts {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__contacts {
+    gap: 15px;
+  }
+}

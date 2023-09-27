@@ -1,0 +1,19 @@
+.slider__slide-buttons-info {
+  display: block;
+  min-width: 137px;
+  min-height: 43px;
+  background-color: #E2F0EF;
+  border: 1px solid #0DBC91;
+  color: #0DBC91;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__slide-buttons-info {
+    min-width: 196px;
+  }
+}
+
+.slider__slide-buttons-info:hover {
+  background: #0DBC91;
+  color: #FFF;
+}

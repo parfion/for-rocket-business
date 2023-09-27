@@ -1,0 +1,13 @@
+.footer__contacts-img {
+  max-width: 23px;
+}
+
+.footer__contacts-img:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__contacts-img {
+    max-width: 35px;
+  }
+}

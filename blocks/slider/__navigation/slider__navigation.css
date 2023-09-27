@@ -1,0 +1,13 @@
+.slider__navigation {
+  display: flex;
+  margin-top: 22px;
+  margin-bottom: 35px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__navigation {
+    margin-top: 34px;
+    margin-bottom: 92px;
+  }
+}

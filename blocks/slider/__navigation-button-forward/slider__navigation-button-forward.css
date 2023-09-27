@@ -1,0 +1,15 @@
+.slider__navigation-button-forward {
+  min-width: 34px;
+  padding: 0;
+  margin-left: 36px;
+  background-color: inherit;
+  border: none;
+  background-image: url('../../../images/rightArrow.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider__navigation-button-forward:hover {
+  cursor: pointer;
+  background-image: url('../../../images/leftArrowActive.svg');
+}

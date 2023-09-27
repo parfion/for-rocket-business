@@ -1,0 +1,15 @@
+.slider__slide-buttons-call {
+  display: block;
+  min-width: 137px;
+  min-height: 43px;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__slide-buttons-call {
+    min-width: 196px;
+  }
+}
+
+.slider__slide-buttons-call:hover {
+  background: #00D29F;
+}

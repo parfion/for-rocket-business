@@ -1,0 +1,10 @@
+.slider__slide-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__slide-buttons {
+    gap: 14px;
+  }
+}

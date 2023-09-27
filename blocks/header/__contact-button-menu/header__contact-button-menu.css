@@ -1,0 +1,19 @@
+.header__contact-button-menu {
+  display: flex;
+  margin-top: 40px;
+  background-color: white;
+  color: #1FA181;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+  min-height: 43px;
+  max-width: 196px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header__contact-button-menu {
+    display: none;
+  }
+}

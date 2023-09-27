@@ -1,0 +1,12 @@
+.lead__img {
+  min-height: 288px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__img {
+    max-width: 50%;
+  }
+}

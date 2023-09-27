@@ -1,0 +1,12 @@
+.slider__slide-subtitle {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider__slide-subtitle {
+    font-size: 22px;
+  }
+}

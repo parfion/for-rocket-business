@@ -1,0 +1,10 @@
+.slider__content {
+  display: flex;
+  transition: all ease 1s;
+}
+
+@media screen and (min-width: 768px) {
+  .slider__content {
+    max-height: 440px;
+  }
+}
