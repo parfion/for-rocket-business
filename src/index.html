@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <script src="./index.js" defer></script>
+  <script src="./pages/index.js" defer></script>
   <title>For Rocket Business</title>
 </head>
 
@@ -15,16 +15,16 @@
     <div class="header__content">
       <button class="header__menu" type="button"></button>
       <div class="header__info">
-        <img class="header__info-logo" alt="Логотип" src="./images/logo.svg">
+        <img class="header__info-logo" alt="Логотип" src="<%=require('../src/images/logo.svg')%>">
         <div class="header__adress">
           <p class="header__contact-tel header__contact-tel-menu">+7(863) 000 00 00</p>
-          <img class="header__adress-point" alt="Точка на карте" src="./images/point.svg">
+          <img class="header__adress-point" alt="Точка на карте" src="<%=require('../src/images/point.svg')%>">
           <p class="header__adress-town">Ростов-на-Дону</p>
           <p class="header__adress-street">ул. Ленина, 2Б</p>
         </div>
       </div>
       <div class="header__contact">
-        <img class="header__contact-img" alt="whatsapp" src="./images/watssapp.svg">
+        <img class="header__contact-img" alt="whatsapp" src="<%=require('../src/images/whatsapp.svg')%>">
         <p class="header__contact-tel">+7(863) 000 00 00</p>
         <button id="email" class="header__contact-button" type="button">Записаться на прием</button>
       </div>
@@ -44,7 +44,7 @@
       </ul>
   </nav> 
     <section class="lead">
-      <img class="lead__img" alt="Клиника" src="./images/lead.png">
+      <img class="lead__img" alt="Клиника" src="<%=require('../src/images/lead.png')%>">
       <div class="lead__info">
         <h1 class="lead__info-title">Многопрофильная клиника для детей и&nbsp;взрослых</h1>
         <p class="lead__info-text">Lorem ipsum dolor sit amet, consectetur adipiscing&nbsp;elit, 
@@ -55,7 +55,7 @@
     <section class="slider">
       <div class="slider__content">
         <div class="slider__slide">
-          <img class="slider__slide-img" src="./images/slider.png" alt="">
+          <img class="slider__slide-img" src="<%=require('../src/images/slider.png')%>" alt="картинка для слайдера">
           <div class="slider__slide-info">
             <h2 class="slider__slide-title">Check-UP</h2>
             <h3 class="slider__slide-subtitle">для мужчин</h3>
@@ -77,7 +77,7 @@
         </div>
 
         <div class="slider__slide">
-          <img class="slider__slide-img" src="./images/slider.png" alt="">
+          <img class="slider__slide-img" src="<%=require('../src/images/slider.png')%>" alt="картинка для слайдера">
           <div class="slider__slide-info">
             <h2 class="slider__slide-title">Check-UP</h2>
             <h3 class="slider__slide-subtitle">для мужчин</h3>
@@ -99,7 +99,7 @@
       </div>
 
       <div class="slider__slide">
-        <img class="slider__slide-img" src="./images/slider.png" alt="">
+        <img class="slider__slide-img" src="<%=require('../src/images/slider.png')%>" alt="картинка для слайдера">
         <div class="slider__slide-info">
           <h2 class="slider__slide-title">Check-UP</h2>
           <h3 class="slider__slide-subtitle">для мужчин</h3>
@@ -121,7 +121,7 @@
       </div>
 
       <div class="slider__slide">
-        <img class="slider__slide-img" src="./images/slider.png" alt="">
+        <img class="slider__slide-img" src="<%=require('../src/images/slider.png')%>" alt="картинка для слайдера">
         <div class="slider__slide-info">
           <h2 class="slider__slide-title">Check-UP</h2>
           <h3 class="slider__slide-subtitle">для мужчин</h3>
@@ -156,7 +156,7 @@
   <footer class="footer">
     <div class="footer__content">
       <div class="footer__info">
-        <img class="footer__logo" alt="Логотип" src="./images/logoFooter.svg">
+        <img class="footer__logo" alt="Логотип" src="<%=require('../src/images/logoFooter.svg')%>">
         <ul class="footer__links">
           <li class="accordion__item footer__item"><a class="accordion__link footer__link" href="#">О клинике</a></li>
           <li class="accordion__item footer__item"><a class="accordion__link footer__link" href="#">Услуги</a></li>
@@ -166,9 +166,9 @@
         </ul>
       </div>
       <div class="footer__contacts">
-        <img class="footer__contacts-img" alt="instagram" src="./images/instagram.svg">
-        <img class="footer__contacts-img" alt="whatsapp" src="./images/watssapp.svg">
-        <img class="footer__contacts-img" alt="telegram" src="./images/telegram.svg">
+        <img class="footer__contacts-img" alt="instagram" src="<%=require('../src/images/instagram.svg')%>">
+        <img class="footer__contacts-img" alt="whatsapp" src="<%=require('../src/images/whatsapp.svg')%>">
+        <img class="footer__contacts-img" alt="telegram" src="<%=require('../src/images/telegram.svg')%>">
       </div>
   </div>
   </footer>
@@ -176,7 +176,7 @@
   <div class="popup">
     <div class="popup__container">
       <h2 class="popup__title">Отправить письмо</h2>
-      <form action="sandmail.php" method="POST" class="popup__form">
+      <form action="./pages/sandmail.php" method="POST" class="popup__form">
         <label for="name">Имя</label>
         <input  class="popup__input" name="name" type="text" 
         required minlength="2" maxlength="30">
