@@ -18,7 +18,7 @@ let width;
 const buttonOpenForm = document.querySelectorAll('#email');
 const popupForm = document.querySelector('.popup');
 const buttomCloseForm = document.querySelector('.popup__close-button');
-const buttonSubmit = document.querySelector('.form');
+const buttonSubmit = document.querySelector('.popup__save-button');
 
 function init () {
   width = slider.offsetWidth;
@@ -72,6 +72,7 @@ buttomCloseForm.addEventListener('click', function() {
   popupForm.classList.remove('popup_opened');
 });
 
-buttonSubmit.addEventListener('click', function() {
+buttonSubmit.addEventListener('click', function(e) {
+  e.preventDefault();
   popupForm.classList.remove('popup_opened');
 });
