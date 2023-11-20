@@ -71,3 +71,7 @@ buttonOpenForm.forEach((item) => item.addEventListener('click', function() {
 buttomCloseForm.addEventListener('click', function() {
   popupForm.classList.remove('popup_opened');
 });
+
+buttonSubmit.addEventListener('click', function() {
+  popupForm.classList.remove('popup_opened');
+});
