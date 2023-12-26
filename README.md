@@ -1,4 +1,4 @@
-##[For Rocket Business](https://parfion.github.io/for-rocket-business/)
+## [For Rocket Business](https://parfion.github.io/for-rocket-business/)
 
 ### Описание
 Верстка сайта многофункциональной клиники по макету из Figma. 
