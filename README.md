@@ -1,25 +1,7 @@
-# Проект: For Rocket Business
-[Сайт](https://parfion.github.io/for-rocket-business/)
+##[For Rocket Business](https://parfion.github.io/for-rocket-business/)
 
-## Описание
+### Описание
 Верстка сайта многофункциональной клиники по макету из Figma. 
 
-### В данном проекте используются следующие технологии:
-- HTML
-- CSS
-- JavaScript
-- PHP
-- Figma
-- Mobile-first
-- Pixel-perfect
-- Адаптивная вёртска
-- Оптимизация изображений
-- Медиазапросы
-- Grid Layuot
-- Flexbox
-- :hover
-- БЭМ
-- Nested
-- Анимации
-- NPM
-- Webpack
+## Технологии и стек:
+`HTML5` `CSS3` `JS6` `BEM` `Git` `Адаптивная верстка` `Кроссбраузерная верстка` `Flexbox` `Grid Layout` `NPM` `Webpack`
